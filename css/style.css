@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 4rem;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+
+.hdr {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.hdr .left a {
+    margin-left: 40px;
+}
+
+.hdr .right a {
+    margin-left: 30px;
+}
+
+header a {
+    color: black;
+}
+
+.logo a h3 {
+    font-size: 900;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.slide1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 150px;
+    background-color: #F3F3F3;
+}
+
+.slide1 .left h1 {
+    margin-bottom: 10px;
+    letter-spacing: 10px;
+}
+
+.slide1 .left p {
+    font-size: 16px;
+    margin-bottom: 50px;
+    opacity: 0.3;
+}
+
+.products-all .top .all-cl {
+    color: black;
+}
+
+.products-all .top .left .opacity {
+    opacity: 0.5;
+    color: black;
+}
+
+.products {
+    padding: 2rem 0;
+}
+
+main .container {
+    padding: 0 4rem;
+}
+
+.products-all .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.products-all .top .left a {
+    margin-left: 30px;
+}
+
+.content-box .top1 .box {
+    width: 23%;
+}
+
+.content-box .top1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-box .box .top img {
+    width: 100%;
+}
+
+.content-box .bottom1 .box {
+    width: 23%;
+}
+
+.content-box .bottom1 .box .top img {
+    width: 100%;
+}
+
+.bottom1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-box .top1 .box .bottom {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.content-box .top1 .box .bottom h5{
+    letter-spacing: .1em;
+    margin-bottom: 9px;
+    
+}
+.content-box .bottom1 .box .bottom h5{
+    letter-spacing: .1em;
+    margin-bottom: 9px;
+}
+.content-box .top1 .box .bottom p{
+color: #929292;
+}
+.content-box .bottom1 .box .bottom p{
+color: #929292;
+}
+
+
+.content-box .bottom1 .box .bottom {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.products .products-all .top {
+    padding: 2rem 0;
+
+}
+
+main hr {
+    opacity: 0.1;
+}
+
+footer .footer-all .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container {
+    padding: 100px 4rem;
+}
+
+ 
+
+footer .footer-all .box h5 {
+    padding-bottom: 2rem;
+    letter-spacing: 3px;
+}
+
+footer .footer-all .box a p {
+    color:#929292;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+footer .footer-all .bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+footer .footer-all .bottom .left a{
+    color: black;
+    opacity: 0.3;
+}
+footer .footer-all .bottom .right a{
+    color: black;
+    margin-left: 20px;
+}
+.footer-all hr{
+    opacity: 0.3;
+}
+footer .footer-all .container2{
+    padding: 0 4rem;
+
+}
+.products .products-all .bottom .content-box .top1 .box .top{
+    position: relative;
+}
+
+
+.top1 .top .quicklook{
+    position: absolute;
+    bottom: 31px;
+    width: 40%;
+    text-align: center;
+    background-color: black;
+    left: 90px;
+    color: #fff;
+    font-size: 14px;
+    
+}
+
+.products .products-all .bottom .content-box .bottom1 .box .top{
+    position: relative;
+}
+
+.bottom1 .top .quicklook{
+    position: absolute;
+    bottom: 31px;
+    left:90px;
+    width: 40%;
+    text-align: center;
+    background-color: black;
+    border: 0;
+    outline: 0;
+    color: #F3F3F3;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+.bottom1 .box :hover .quicklook{
+    bottom:31px;
+    opacity: 1;
+}
+.content-box .top1 .box .top a{
+    font-size: 10px;
+    padding: 5px 2px;
+    letter-spacing: 1px;
+}
+.content-box .bottom1 .box .top a{
+    font-size: 10px;
+    padding: 5px 2px;
+    letter-spacing: 1px;
+}
+.top1 .top .quicklook{
+    position: absolute;
+    bottom: 31px;
+    left:90px;
+    width: 40%;
+    text-align: center;
+    background-color: black;
+    border: 0;
+    outline: 0;
+    color: #F3F3F3;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.bottom .top1 .top .quicklook{
+    position: absolute;
+    bottom: 31px;
+    width: 40%;
+    text-align: center;
+    background-color: black;
+    left: 90px;
+    color: #fff;
+    font-size: 14px;
+    
+}
+.products .products-all .bottom .content-box .top1 .box .top{
+    position: relative;
+}
+.top1 .box :hover .quicklook{
+    bottom:31px;
+    opacity: 1;
+}
+
+
+
